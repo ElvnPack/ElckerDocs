@@ -20,6 +20,7 @@
   .main-left
     flex 1
     // width 72%
+    width 100%
     .theme-vdoing-content.card-box
       padding 1rem 1.5rem
       margin-bottom 0.9rem
@@ -27,7 +28,9 @@
       padding 1rem 1.5rem 0
   .main-right
     >*
-      width 245px
+      // width 245px
+      width 0px
+      display none
       box-sizing border-box
       @media (max-width 900px)
         width 235px
