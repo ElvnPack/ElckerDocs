@@ -4,30 +4,44 @@ module.exports = [
   {
     text: '社区文档', link: '/pages/95c0f7/', items: [
       {
-        text: 'Elcker-Inter', link: '/pages/ed0288/',
+        text: '简介', link: '/pages/ed0288/',
       },
       {
-        text: 'Elcker-Control', link: '/pages/f7198d/',
+        text: '前端文档', link: '/pages/ed0288/',
       },
       {
-        text: 'Elcker-Cloud', link: '/pages/65bbde/',
+        text: '平台文档', items: [
+          {
+            text: '平台简介', link: '/pages/f7198d/',
+          },
+        ]
       },
     ]
   },
   {
-    text: '开源项目', items: [
+    text: '平台应用', items: [
       {
-        text: 'elcker-inter-spa-template', link: 'https://gitee.com/elckerinter/elcker-inter-spa-template.git'
+        text: 'SPA版本演示', link: ''
       },
       {
-        text: 'elcker-inter-spa', link: 'https://gitee.com/elckerinter/elcker-inter-spa.git'
+        text: '多页面版本演示', link: ''
       },
       {
-        text: 'elcker-inter-pages-template', link: 'https://gitee.com/elckerinter/elcker-inter-pages-template.git'
-      },
+        text: "开源项目", items: [
+          {
+            text: 'elcker-inter-spa-template', link: 'https://gitee.com/elckerinter/elcker-inter-spa-template.git'
+          },
+          {
+            text: 'elcker-inter-spa', link: 'https://gitee.com/elckerinter/elcker-inter-spa.git'
+          },
+          {
+            text: 'elcker-inter-pages-template', link: 'https://gitee.com/elckerinter/elcker-inter-pages-template.git'
+          },
+        ]
+      }
     ]
   },
-  { text: '关于我们', link: '/pages/babcad/' },
+
   {
     text: 'Elcker分类',
     link: '/archives/',
@@ -37,4 +51,6 @@ module.exports = [
       { text: '文档归档', link: '/archives/' },
     ],
   },
+  { text: '更新日志', link: '/pages/e92bd4/' },
+  { text: '关于我们', link: '/pages/babcad/' },
 ]
