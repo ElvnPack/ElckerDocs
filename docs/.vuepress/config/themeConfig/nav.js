@@ -4,13 +4,13 @@ module.exports = [
   {
     text: '社区文档', link: '/pages/95c0f7/', items: [
       {
-        text: '简介', link: '/pages/ed0288/',
+        text: '指引', link: '/pages/ce111f/',
       },
       {
-        text: '前端文档', link: '/pages/ed0288/',
+        text: 'EAdmin', link: '/pages/27942a/',
       },
       {
-        text: '平台文档', items: [
+        text: 'EWEB', items: [
           {
             text: '平台简介', link: '/pages/f7198d/',
           },

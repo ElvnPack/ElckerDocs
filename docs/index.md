@@ -10,7 +10,7 @@ bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | no
 features: # 可选的
   - title: 前端
     details: 采用VITE2.0+VUE3.0+TS进行前端开发框架的封装，支持SPA及对页面，让前端开发变得高效简洁。
-    link: /pages/ed0288/ # 可选
+    link: /pages/666c99/ # 可选
     # imgUrl: /img/web.png # 可选
   - title: 后端
     details: 采用模块化的开发技术，对单点技术进行封装优化，插拔式引入使微服务的开发简洁明了。
