@@ -7,12 +7,19 @@ module.exports = [
         text: '指引', link: '/pages/ce111f/',
       },
       {
-        text: 'EAdmin', link: '/pages/27942a/',
+        text: '前端项目', items:[
+          {
+            text: 'EAdmin-基于vite2.0构建', link: '/pages/27942a/',
+          },
+          {
+            text: 'EInter-基于webpack构建', link: '/pages/640434/',
+          },
+        ],
       },
       {
-        text: 'EWEB', items: [
+        text: '服务组件', items: [
           {
-            text: '平台简介', link: '/pages/f7198d/',
+            text: 'EWPC', link: '/pages/f7198d/',
           },
         ]
       },
@@ -21,10 +28,10 @@ module.exports = [
   {
     text: '平台应用', items: [
       {
-        text: 'SPA版本演示', link: ''
+        text: 'EAdmin项目演示', link: 'https://eadmin.vercel.app/'
       },
       {
-        text: '多页面版本演示', link: ''
+        text: 'EInter项目演示', link: ''
       },
       {
         text: "开源项目", items: [
@@ -41,7 +48,6 @@ module.exports = [
       }
     ]
   },
-
   {
     text: 'Elcker分类',
     link: '/archives/',
