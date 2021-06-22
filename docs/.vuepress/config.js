@@ -9,7 +9,7 @@ module.exports = {
   description: 'EWEB快速开发平台，JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github等技术文章。',
   // base: '/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
-    lineNumbers: true, // 代码行号
+    lineNumbers: false, // 代码行号
   },
   head,
   plugins,
